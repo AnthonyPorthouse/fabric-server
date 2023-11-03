@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.0.2...v1.0.3) (2023-11-03)
+
+
+### Bug Fixes
+
+* add EXPOSE to dockerfile ([ee43def](https://github.com/AnthonyPorthouse/fabric-server/commit/ee43defb0f7b5cd5618997dffb88d1117e3d7454))
+
 ## [1.0.2](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.0.1...v1.0.2) (2023-11-03)
 
 
