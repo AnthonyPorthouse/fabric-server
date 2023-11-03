@@ -57,7 +57,7 @@ jobs:
             type=semver,pattern=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}.${{needs.release-please.outputs.patch}}
             type=semver,pattern=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}
             type=semver,pattern=${{needs.release-please.outputs.major}}
-            type={{sha}}
+            type=sha
       - name: Build
         uses: docker/build-push-action@v5
         with:
