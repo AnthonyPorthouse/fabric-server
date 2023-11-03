@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.0.0...v1.0.1) (2023-11-03)
+
+
+### Bug Fixes
+
+* correct metadata action ([d01d501](https://github.com/AnthonyPorthouse/fabric-server/commit/d01d501dc964606ea6f43268546532173830713f))
+
 ## 1.0.0 (2023-11-03)
 
 
