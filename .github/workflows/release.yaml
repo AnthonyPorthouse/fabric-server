@@ -54,9 +54,9 @@ jobs:
           images: |
             ghcr.io/anthonyporthouse/fabric-server
           tags: |
-            type=semver,pattern=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}.${{needs.release-please.outputs.patch}}
-            type=semver,pattern=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}
-            type=semver,pattern=${{needs.release-please.outputs.major}}
+            type=raw,value=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}.${{needs.release-please.outputs.patch}}
+            type=raw,value=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}
+            type=raw,value=${{needs.release-please.outputs.major}}
             type=sha
       - name: Build
         uses: docker/build-push-action@v5
