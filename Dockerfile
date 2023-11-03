@@ -1,5 +1,7 @@
 FROM eclipse-temurin:17
 
+EXPOSE 25565
+
 WORKDIR /minecraft
 
 ENV MINECRAFT_VERSION=1.20.2
