@@ -54,6 +54,7 @@ jobs:
           images: |
             ghcr.io/anthonyporthouse/fabric-server
           tags: |
+            type=raw,value=latest
             type=raw,value=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}.${{needs.release-please.outputs.patch}}
             type=raw,value=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}
             type=raw,value=${{needs.release-please.outputs.major}}
