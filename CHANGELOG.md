@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.1.1...v1.1.2) (2023-11-06)
+
+
+### Bug Fixes
+
+* bad tagging on release ([ab19d30](https://github.com/AnthonyPorthouse/fabric-server/commit/ab19d30d12350d9065a985c6d01bf09523fb73e0))
+
 ## [1.1.1](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.1.0...v1.1.1) (2023-11-06)
 
 
