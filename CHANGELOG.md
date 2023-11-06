@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.0.3...v1.1.0) (2023-11-06)
+
+
+### Features
+
+* **build:** build multiple java versions ([30f74a2](https://github.com/AnthonyPorthouse/fabric-server/commit/30f74a2747b4a19cf854fc889d77b1a9cb81cf82))
+
 ## [1.0.3](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.0.2...v1.0.3) (2023-11-03)
 
 
