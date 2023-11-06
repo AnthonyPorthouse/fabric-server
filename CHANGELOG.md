@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.1.0...v1.1.1) (2023-11-06)
+
+
+### Bug Fixes
+
+* add naked java version and latest tag ([a6966b6](https://github.com/AnthonyPorthouse/fabric-server/commit/a6966b6bf922836dcfce1408ea4e6941fed11361))
+
 ## [1.1.0](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.0.3...v1.1.0) (2023-11-06)
 
 
