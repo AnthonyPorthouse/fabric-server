@@ -1,3 +1,5 @@
+ARG JAVA_VERSION=17
+
 FROM eclipse-temurin:17
 
 EXPOSE 25565

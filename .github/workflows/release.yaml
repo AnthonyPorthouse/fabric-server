@@ -30,9 +30,13 @@ jobs:
           package-name: fabric-server
       
   build:
+    name: Build ${{ matrix.java-version}}
     runs-on: ubuntu-latest
     needs: release-please
     if: ${{ needs.release-please.outputs.releases_created }}
+    strategy:
+      matrix:
+        java-version: [17, 16, 11, 8]
 
     steps:
       - name: Checkout
@@ -53,8 +57,10 @@ jobs:
         with:
           images: |
             ghcr.io/anthonyporthouse/fabric-server
+          flavor: |
+            prefix=java${{ matrix.java-version }}-
           tags: |
-            type=raw,value=latest
+            type=raw,value=latest,enable=${{ matrix.java-version == 17 }}
             type=raw,value=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}.${{needs.release-please.outputs.patch}}
             type=raw,value=${{needs.release-please.outputs.major}}.${{needs.release-please.outputs.minor}}
             type=raw,value=${{needs.release-please.outputs.major}}
@@ -63,6 +69,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          build-args: |
+            JAVA_VERSION:${{matrix.java-version}}
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
