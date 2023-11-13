@@ -1,6 +1,9 @@
 ARG JAVA_VERSION=17
 
-FROM eclipse-temurin:17
+FROM eclipse-temurin:${JAVA_VERSION}
+
+RUN adduser --disabled-password --uid 1000 --shell /bin/bash --gecos "" minecraft \
+    && addgroup minecraft users
 
 EXPOSE 25565
 
