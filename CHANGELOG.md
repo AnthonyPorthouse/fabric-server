@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.1.2...v1.2.0) (2023-11-13)
+
+
+### Features
+
+* allow specifying both UID and GID ([4336a4c](https://github.com/AnthonyPorthouse/fabric-server/commit/4336a4ca11b7aee8a86c56187caec7aca38d163e))
+
 ## [1.1.2](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.1.1...v1.1.2) (2023-11-06)
 
 
