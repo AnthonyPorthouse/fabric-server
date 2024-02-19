@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.2.0...v1.3.0) (2024-02-19)
+
+
+### Features
+
+* handle setting server.properties from environment ([7fba42d](https://github.com/AnthonyPorthouse/fabric-server/commit/7fba42d2c7e03417526b0b83959abcbbe4df98c6))
+
 ## [1.2.0](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.1.2...v1.2.0) (2023-11-13)
 
 
