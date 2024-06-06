@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.3.0...v1.4.0) (2024-06-06)
+
+
+### Features
+
+* add java 21 for minecraft 1.20.5 and higher ([f4d5193](https://github.com/AnthonyPorthouse/fabric-server/commit/f4d51935c72245a469de1c91932bf224cf130c74))
+* add weekly image rebuilds ([2aaea55](https://github.com/AnthonyPorthouse/fabric-server/commit/2aaea556c402ff31c04a47a51b30cbfc80f4cfe7))
+
+
+### Bug Fixes
+
+* correct image build args not working as intended ([2aaea55](https://github.com/AnthonyPorthouse/fabric-server/commit/2aaea556c402ff31c04a47a51b30cbfc80f4cfe7))
+
 ## [1.3.0](https://github.com/AnthonyPorthouse/fabric-server/compare/v1.2.0...v1.3.0) (2024-02-19)
 
 
